@@ -1,0 +1,149 @@
+*{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  }
+body{
+  background-color: #F0ECEE;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 10px 0px;
+  padding-left: 5px;
+}
+a {
+  text-decoration: none;
+}
+.logo{
+  font-weight: 600;
+  margin-top: 0px;
+}
+.adopting{
+  font-weight:600;
+  text-align: left;
+  font-size: 35px;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  
+}
+.navigationbox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  text-indent:0px;
+  position: relative;
+  clear:both; 
+  padding: 0;      
+  }
+.link{
+  color: #88898B;
+  flex-grow: 1;
+  Font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+  text-indent: 0px;
+  }
+.link:hover{
+  background-color: #CCC;
+}
+.root{
+  color: #88898B;
+}
+.buttonRoot{
+  color: #F0ECEE;
+}
+.contactUs {
+  background-color: #FF4850;
+  color: #F0ECEE;
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+  font-size: 19px;
+  margin: auto;
+  }
+.contactUs:hover{
+    background-color: #CCC;
+}
+.red_text{
+  color:#FF4850;
+  font-weight: 600;
+  font-size: inherit;
+  }
+.paragraph{
+  color: #88898B;
+  margin-top: 5px;
+}
+
+@media screen and (min-width:768px) {
+    
+  html{
+    height: 100%;
+  }
+  body{
+    background-image: url(bulldog.jpg);
+    background-position: top;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: auto;
+  }
+  .navigation{
+    display: inline-flex;
+    flex-direction: row;
+    flex-flow: row;
+  }
+  .logo{
+    width: 60%;
+    margin-top: 20px;
+  }
+  .navigationbox{
+    background: none;
+    width: 30%;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    flex: none;
+  }
+  .link{
+    display: inline;
+    margin: auto;
+    text-align: center;
+    background: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .contactUs{
+    width: auto;
+    margin: auto;
+  }
+  #button1{
+    margin-left: 0px;
+    margin-right: 0px;
+    align-content: flex-end;
+    width: auto;
+  }
+  #button2{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: auto;
+  }
+  .adopting{
+    margin-top: 185px;
+    max-width: 35%;
+    margin-bottom: 0px;
+  }
+  .paragraph{
+    max-width: 45%;
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+}
